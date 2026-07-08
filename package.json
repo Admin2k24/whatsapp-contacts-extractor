@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-contacts-extractor",
+  "version": "1.0.0",
+  "description": "Extrai contatos de todas as conversas do WhatsApp e salva em base de dados SQLite",
+  "main": "extractor.js",
+  "scripts": {
+    "start": "node extractor.js",
+    "view": "node view-contacts.js"
+  },
+  "keywords": ["whatsapp", "contacts", "database", "extractor", "sqlite"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.43.0",
+    "sqlite3": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
